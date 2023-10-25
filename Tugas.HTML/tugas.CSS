@@ -1,0 +1,15 @@
+.welcome {
+    text-align: center;
+    color: #000;
+    background-color: aqua;
+}
+.box {
+    border: 2px solid blue;
+    padding: 10px;
+}
+#teks1 {
+    color:rgb(255, 127, 127)
+}
+#teks2 {
+    font-size: 30px;
+}
