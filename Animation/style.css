@@ -1,0 +1,42 @@
+.ktk{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 50px solid grey;
+    border-radius: 100%;
+    border-top: 50px solid black ;
+    
+    animation: ubahWarnaTeks 2s linear infinite;
+}
+
+@keyframes ubahWarnaTeks {
+    0% {
+        color: black;
+        background-color: aqua;
+        transform: rotate(0deg);
+    }
+    25% {
+        color: white;
+        font-size: 30px;
+        background-color: aquamarine;
+    }
+    50%{
+        color: cornflowerblue;
+        font-size: 50px;
+        background-color: azure;
+    }
+    75% {
+        color: darkorange;
+        font-size: 60px;
+        background-color: antiquewhite ;
+    }
+    100% {
+        color: deeppink;
+        font-size: 30px;
+        background-color: cornsilk;
+        transform: rotate(360deg);
+    }
+}
