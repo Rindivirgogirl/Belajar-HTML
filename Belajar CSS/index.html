@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .kotak-besar{
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+        z-index: 2;
+        position: relative;
+    }
+
+    .kotak-besar-2 {
+        width: 200px;
+        height: 200px;
+        background-color: chartreuse;
+        z-index: 3;
+        position: relative;
+    }
+
+    .kotak-besar-3 {
+        width: 200px;
+        height: 200px;
+        background-color: darkorchid;
+        bottom: 300px;
+        z-index: 1;
+        position: relative;
+    }
+</style>
+<body>
+    <div class="kotak-besar"></div>
+    <div class="kotak-besar-2"></div>
+    <div class="kotak-besar-3"></div>
+</body>
+</html>
