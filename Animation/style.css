@@ -16,7 +16,8 @@
     0% {
         color: black;
         background-color: aqua;
-        transform: rotate(0deg);
+        
+        transform: translateX(0px)  rotate(0deg);
     }
     25% {
         color: white;
@@ -27,6 +28,7 @@
         color: cornflowerblue;
         font-size: 50px;
         background-color: azure;
+        transform: translateX(700px)  rotate(180deg);   
     }
     75% {
         color: darkorange;
@@ -37,6 +39,7 @@
         color: deeppink;
         font-size: 30px;
         background-color: cornsilk;
-        transform: rotate(360deg);
+        
+        transform: translateX(0px) rotate(360deg);
     }
 }
